@@ -15,7 +15,7 @@ Last updated: 11/15/2018
 
 There are 3 files in the repository
 
-(a) PDData.Rdata (a R data file with the motivating PD data loaded. Continuous covariates are standardized), 
+(a) PDData.Rdata (a R data file with the motivating PD data loaded. Continuous covariates are standardized) 
 (b) GEV_NR.R (Main R program) and 
 (c) GEV_NR_U.R (R program to compute the Hamiltonian steps)
 
