@@ -1,0 +1,43 @@
+Title:   "A shared spatial model for multivariate extreme-valued binary data with non-random missingness"  	        
+Authors:  Xiaoyue Zhao, Lin Zhang, and Dipankar Bandyopadhyay
+
+Status:  "Under Review" in Sankhya-B
+
+
+R codes for implementing the proposed Hamiltonian-based MCMC sampling for the proposed Model 1 -- Generalized extreme value link 
+with non-random missingness. Application to real data
+
+
+Author: Xiaoyue Zhao, PhD (edited by Dipankar Bandyopadhyay, PhD)
+ 
+
+Last updated: 11/15/2018
+
+There are 3 files in the repository
+
+(a) PDData.Rdata (a R data file with the motivating PD data loaded. Continuous covariates are standardized), 
+(b) GEV_NR.R (Main R program) and 
+(c) GEV_NR_U.R (R program to compute the Hamiltonian steps)
+
+Steps: 
+
+1. Put all 3 files in the same folder. 
+2. Set your R working directory
+3. Run "GEV_NR.R". This will load the .Rdata, and also call "GEV_NR_U"
+
+
+
+Contact: 
+
+Dipankar Bandyopadhyay, PhD,
+Professor, Department of Biostatistics
+Director, Biostatistics Shared Resources, Massey Cancer Center
+Virginia Commonwealth University
+830 East Main Street
+One Capitol Square, 7th Floor
+PO Box 980032
+Richmond
+VA 23298-0032
+USA
+
+E-mail: dbandyop@vcu.edu
